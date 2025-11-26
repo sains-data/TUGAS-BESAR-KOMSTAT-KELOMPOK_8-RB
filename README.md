@@ -53,7 +53,7 @@ TUGAS-BESAR-KOMSTAT-KELOMPOK_8-RB/
 **File**: `Dataset_8_RB.csv`
 
 Dataset berisi data harga saham adjusted (disesuaikan) dari tiga perusahaan:
-- **Periode**: 4 tahun terakhir (2021-2025)
+- **Periode**: November 2021 - November 2025 (4 tahun)
 - **Kolom**:
   - `symbol`: Kode saham (PTBA.JK, SMBR.JK, RMKE.JK)
   - `date`: Tanggal transaksi
