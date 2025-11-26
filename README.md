@@ -19,7 +19,7 @@ Mengukur risiko secara kuantitatif menggunakan metode pembangkitan bilangan acak
 
 1. **Estimasi Risiko**: Menghitung Value at Risk (VaR) portofolio dalam 30 hari ke depan
 2. **Tingkat Kepercayaan**: Menentukan seberapa yakin terhadap prediksi risiko yang didapatkan
-3. **Simulasi Stokastik*: Mensimulasikan berbagai skenario return portofolio
+3. **Simulasi Stokastik**: Mensimulasikan berbagai skenario return portofolio
 
 ### 🔬 Metodologi
 
