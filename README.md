@@ -11,7 +11,7 @@ Proyek ini menganalisis dan memprediksi risiko portofolio saham dari tiga perusa
 **Perusahaan yang Dianalisis:**
 - **PTBA (PT Bukit Asam Tbk)** - Perusahaan pertambangan batubara
 - **SMBR (PT Semen Baturaja Tbk)** - Perusahaan semen
-- **RMKE (PT Rukun Maju Bersama Elektrindo)** - Perusahaan distribusi listrik
+- **RMKE**
 
 ### 🎯 Tujuan Penelitian
 
