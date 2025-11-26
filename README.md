@@ -31,21 +31,20 @@ Proyek ini menggunakan dua metode utama dalam pembangkitan bilangan acak:
 - Memastikan bilangan acak yang dihasilkan mengikuti distribusi yang diinginkan
 
 #### 2. **Acceptance-Rejection Method**
-- Membangkitkan bilangan acak dari distribusi-t Student
+- Membangkitkan bilangan acak dari distribusi-t Student (df =4)
 - Menggunakan distribusi proposal Cauchy
-- Cocok untuk distribusi yang kompleks seperti distribusi-t dengan degree of freedom tertentu
 
 ### 📂 Struktur Repository
 
 ```
 TUGAS-BESAR-KOMSTAT-KELOMPOK_8-RB/
 │
-├── README.md                 # Dokumentasi proyek (file ini)
+├── README.md                 # Dokumentasi proyek 
 ├── Dataset_8_RB.csv         # Data historis saham PTBA, SMBR, RMKE (4 tahun)
 ├── codeR_8_RB.ipynb         # Jupyter Notebook berisi analisis lengkap dalam R
-├── Laporan_8_RB.pdf         # Laporan tertulis lengkap
+├── Laporan_8_RB.pdf         # Laporan tertulis 
 ├── PPT_8_RB.pptx            # Presentasi PowerPoint
-└── Video_8_RB.mp4           # Video presentasi (link Google Drive)
+└── Video_8_RB.mp4           # Video presentasi (juga tersedia link Google Drive di bagian atas)
 ```
 
 ### 📊 Dataset
@@ -62,7 +61,7 @@ Dataset berisi data harga saham adjusted (disesuaikan) dari tiga perusahaan:
 ### 💻 Cara Menggunakan
 
 #### Prasyarat
-Pastikan Anda telah menginstal:
+Pastikan telah menginstal:
 - R (versi 4.0 atau lebih baru)
 - Jupyter Notebook dengan kernel R
 - Package R yang diperlukan:
@@ -100,6 +99,7 @@ install.packages("scales")
 3. **Jalankan Sel-sel Kode**
    - Jalankan sel instalasi package (hanya sekali)
    - Jalankan sel-sel berikutnya secara berurutan
+   - Ganti ticker dan Coba dengan perusahaan yang terdaftar di bursa efek indonesia
    - Perhatikan output visualisasi dan hasil perhitungan
 
 ### 📈 Hasil Analisis
@@ -109,8 +109,7 @@ Notebook menghasilkan beberapa analisis penting:
 1. **Distribusi Return Historis**: Visualisasi bentuk distribusi return harian portofolio
 2. **Simulasi Acceptance-Rejection**: Demonstrasi visual metode AR untuk menghasilkan bilangan acak
 3. **Simulasi Inverse Transform**: Demonstrasi visual metode IT untuk transformasi distribusi
-4. **Value at Risk (VaR)**: Perhitungan risiko maksimum dengan tingkat kepercayaan tertentu
-5. **Perbandingan Metode**: Evaluasi efisiensi kedua metode pembangkitan bilangan acak
+4. **Value at Risk (VaR)**: Perhitungan risiko maksimum dengan tingkat kepercayaan tertentu (disini memakai 95%)
 
 ### 🎓 Kontributor - Kelompok 8 RB
 
@@ -122,14 +121,10 @@ Tugas Besar Mata Kuliah Komputasi Statistika
 2. Kroese, D. P., Taimre, T., & Botev, Z. I. (2011). *Handbook of Monte Carlo Methods*. John Wiley & Sons.
 3. Jorion, P. (2007). *Value at Risk: The New Benchmark for Managing Financial Risk*. McGraw-Hill.
 
-### 📄 Lisensi
-
-Proyek ini dibuat untuk keperluan akademis dalam mata kuliah Komputasi Statistika.
-
 ### 📧 Kontak
 
 Untuk pertanyaan atau diskusi lebih lanjut, silakan buka issue di repository ini.
 
 ---
 
-**Catatan**: Hasil simulasi dan prediksi dalam proyek ini adalah untuk tujuan pembelajaran dan tidak boleh digunakan sebagai saran investasi.
+**Catatan!!!!!**: Hasil simulasi dan prediksi dalam proyek ini adalah untuk tujuan pembelajaran dan tidak boleh digunakan sebagai saran investasi.
